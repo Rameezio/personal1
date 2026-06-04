@@ -123,7 +123,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Developer Portfolio',
+      title: 'Cortex',
       description: 'Modern personal portfolio website showcasing professional skills, projects, and developer experience. Includes backend functionality for dynamic data and contact features.',
       tech: ['React.js', 'Tailwind CSS', 'Framer Motion', 'Node.js', 'MongoDB'],
       github: 'https://github.com/Rameezio/Cortex.git',
