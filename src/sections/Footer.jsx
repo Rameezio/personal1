@@ -26,7 +26,7 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="text-2xl font-display font-bold gradient-text-hero mb-4 tracking-tight">Rameez</h3>
+            <h3 className="text-2xl font-display font-bold gradient-text-hero mb-4 tracking-tight">Muhammad Rameez</h3>
             <p className="text-dark-400 mb-6 text-sm leading-relaxed tracking-wide">
               MERN Stack Developer building clean, reliable
               web applications with passion and precision.

@@ -216,7 +216,7 @@ export default function Hero() {
             }}
           >
             Hi, I&apos;m{' '}
-            <span style={{ color: '#f1f5f9', fontWeight: 700 }}>Rameez</span>
+            <span style={{ color: '#f1f5f9', fontWeight: 700 }}>Muhammad Rameez</span>
           </motion.p>
 
           {/* MERN STACK + DEVELOPER */}

@@ -15,7 +15,7 @@ const COMMANDS = {
     delay: 400,
   },
   about: {
-    response: `Hi! I'm Rameez — a Full Stack Developer specializing in the MERN stack.
+    response: `Hi! I'm Muhammad Rameez — a Full Stack Developer specializing in the MERN stack.
 I build full-stack web applications with clean code and modern practices.
 Experienced in REST APIs, responsive frontends, and scalable backend systems.
 Quick learner, team player, currently expanding into DevOps.`,

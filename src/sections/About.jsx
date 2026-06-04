@@ -155,7 +155,7 @@ const About = () => {
                 <div className="w-full h-full rounded-[calc(1.5rem-1px)] overflow-hidden border border-white/[0.06]">
                   <img
                     src="/images/rameez.jpg"
-                    alt="Rameezio"
+                    alt="Muhammad Rameez"
                     className="w-full h-full object-cover" style={{ objectPosition: 'center 35%', transform: 'scale(0.82)', transformOrigin: 'center 35%' }}
                   />
                 </div>
