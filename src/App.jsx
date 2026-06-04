@@ -16,6 +16,10 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    // Always start from top — prevent browser scroll restoration
+    window.history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+
     // Lenis smooth scroll — single RAF loop
     const lenis = new Lenis({ lerp: 0.12, smoothWheel: true });
 
