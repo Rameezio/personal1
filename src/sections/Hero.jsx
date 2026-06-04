@@ -7,7 +7,7 @@ import FloatingTechCard from '../components/hero/FloatingTechCard';
 
 /* ─── CTA Buttons (inline — too small for own file) ─── */
 const CTAButtons = () => (
-  <div style={{ display:'flex', flexWrap:'wrap', gap:14, marginTop:6, pointerEvents:'auto' }}>
+  <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-2" style={{ pointerEvents:'auto' }}>
     <a href="#projects" className="hero-btn-primary" style={{ display:'inline-flex', alignItems:'center', textDecoration:'none' }}>
       <svg className="hero-btn-arrow-up" viewBox="0 0 16 16" fill="none" style={{ width:15, height:15, marginRight:8, flexShrink:0, transition:'transform 0.28s ease' }}>
         <path d="M3 13L13 3M13 3H5M13 3V11" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" />
@@ -168,29 +168,13 @@ export default function Hero() {
 
       {/* ══ Main 2-column layout ══ */}
       <div
-        style={{
-          position: 'absolute',
-          inset: 0,
-          zIndex: 20,
-          display: 'flex',
-          alignItems: 'center',
-          maxWidth: 1440,
-          margin: '0 auto',
-          left: 0,
-          right: 0,
-          padding: '0 clamp(24px, 5vw, 80px)',
-          gap: 'clamp(24px, 4vw, 60px)',
-        }}
+        className="absolute inset-0 z-20 flex flex-col lg:flex-row items-center justify-center lg:justify-start pt-24 lg:pt-0 px-6 md:px-12 lg:px-20"
+        style={{ maxWidth: 1440, margin: '0 auto', left: 0, right: 0, gap: 'clamp(24px, 4vw, 60px)' }}
       >
         {/* ── LEFT: Text content ── */}
         <div
-          style={{
-            flex: '0 0 auto',
-            maxWidth: 580,
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 'clamp(14px, 1.8vw, 22px)',
-          }}
+          className="w-full flex flex-col items-center lg:items-start text-center lg:text-left"
+          style={{ maxWidth: 580, gap: 'clamp(14px, 1.8vw, 22px)' }}
         >
           {/* Available badge */}
           <motion.div {...fadeUp(show ? 0 : 99)} animate={{ opacity: show ? 1 : 0, y: show ? 0 : 20 }}>
@@ -245,7 +229,7 @@ export default function Hero() {
             {/* MERN STACK — solid white */}
             <div
               style={{
-                fontSize: 'clamp(2.8rem, 5.6vw, 5.4rem)',
+                fontSize: 'clamp(2rem, 7vw, 5.4rem)',
                 fontWeight: 900,
                 textTransform: 'uppercase',
                 letterSpacing: '-0.025em',
@@ -259,7 +243,7 @@ export default function Hero() {
             {/* DEVELOPER — animated gradient */}
             <div
               style={{
-                fontSize: 'clamp(2.8rem, 5.6vw, 5.4rem)',
+                fontSize: 'clamp(2rem, 7vw, 5.4rem)',
                 fontWeight: 900,
                 textTransform: 'uppercase',
                 letterSpacing: '-0.025em',

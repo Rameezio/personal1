@@ -151,7 +151,7 @@ const About = () => {
             className="space-y-8"
           >
             <div className="relative group">
-              <div className="aspect-square rounded-3xl p-px bg-gradient-to-br from-white/[0.14] via-blue-500/20 to-transparent shadow-[0_32px_64px_-32px_rgba(0,0,0,0.65)] transition-[box-shadow] duration-300 group-hover:shadow-[0_40px_80px_-36px_rgba(59,130,246,0.18)]">
+              <div className="aspect-square rounded-3xl p-px bg-gradient-to-br from-white/[0.14] via-blue-500/20 to-transparent max-w-sm mx-auto lg:max-w-none shadow-[0_32px_64px_-32px_rgba(0,0,0,0.65)] transition-[box-shadow] duration-300 group-hover:shadow-[0_40px_80px_-36px_rgba(59,130,246,0.18)]">
                 <div className="w-full h-full rounded-[calc(1.5rem-1px)] overflow-hidden border border-white/[0.06]">
                   <img
                     src="/images/rameez.jpg"

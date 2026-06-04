@@ -159,6 +159,17 @@
   }
 }
 
+/* ── Mobile fixes ───────────────────────────────── */
+@media (max-width: 1023px) {
+  .portfolio-section { padding: 4rem 1rem; }
+}
+
+@media (max-width: 640px) {
+  .hero-btn-primary,
+  .hero-btn-secondary { width: 100%; justify-content: center; }
+  .portfolio-section { padding: 3rem 1rem; }
+}
+
 /* ── Scrollbar ──────────────────────────────────── */
 ::-webkit-scrollbar        { width: 8px; }
 ::-webkit-scrollbar-track  { background: #060910; border-left: 1px solid rgba(59,130,246,0.08); }
