@@ -236,23 +236,12 @@ export function MiniNavbar() {
               style={{
                 fontFamily: "'Courier New', monospace",
                 fontWeight: 700,
-                fontSize: '0.85rem',
+                fontSize: '0.9rem',
                 color: '#60a5fa',
                 textShadow: '0 0 8px rgba(96,165,250,0.6)',
               }}
             >
               &lt;/&gt;
-            </span>
-            <span
-              style={{
-                fontSize: '0.75rem',
-                fontWeight: 600,
-                letterSpacing: '0.12em',
-                textTransform: 'uppercase',
-                color: 'rgba(203,213,225,0.55)',
-              }}
-            >
-              Navigate
             </span>
           </div>
 
