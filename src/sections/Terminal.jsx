@@ -114,7 +114,8 @@ const Terminal = () => {
 
   /* ── Focus input after boot ── */
   useEffect(() => {
-    if (booted && inputRef.current) inputRef.current.focus();
+    // preventScroll: true — focus without scrolling page to terminal
+    if (booted && inputRef.current) inputRef.current.focus({ preventScroll: true });
   }, [booted]);
 
   /* ── Process command ── */
