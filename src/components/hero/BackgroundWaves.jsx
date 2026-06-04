@@ -157,8 +157,8 @@ export default function BackgroundWaves() {
       <div style={{ position:'absolute', inset:0, background:'radial-gradient(ellipse 42% 55% at -4% 54%, rgba(29,78,216,0.13) 0%, transparent 65%)' }} />
 
 
-      {/* WebGL shader — fades at top & bottom, shows in middle */}
-      <div style={{
+      {/* WebGL shader — hidden on mobile (performance + visual) */}
+      <div className="hidden md:block" style={{
         position:'absolute', inset:0, overflow:'hidden',
         WebkitMaskImage:'linear-gradient(to bottom, transparent 5%, black 28%, black 72%, transparent 95%)',
         maskImage:'linear-gradient(to bottom, transparent 5%, black 28%, black 72%, transparent 95%)',

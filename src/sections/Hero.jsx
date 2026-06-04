@@ -292,14 +292,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.1, delay: 0.65 }}
-          style={{
-            flex: 1,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            minHeight: 560,
-            pointerEvents: 'none',
-          }}
+          style={{ flex: 1, alignItems: 'center', justifyContent: 'center', minHeight: 560, pointerEvents: 'none' }}
           className="hidden lg:flex"
         >
           {/* Right stage — glow + floating tech cards */}

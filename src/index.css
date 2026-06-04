@@ -165,8 +165,8 @@
 }
 
 @media (max-width: 640px) {
-  .hero-btn-primary,
-  .hero-btn-secondary { width: 100%; justify-content: center; }
+  .hero-btn-primary  { padding: 11px 22px; font-size: 0.85rem; }
+  .hero-btn-secondary { padding: 11px 22px; font-size: 0.85rem; }
   .portfolio-section { padding: 3rem 1rem; }
 }
 
